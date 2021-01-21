@@ -5,43 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
-            <a href="index.html">WebStudio</a>
-                <ul>
-                    <li><a href="#"> Студия</li ></a>
-                    <li><a href="#"> Портфолио</li></a>
-                    <li><a href="#"> Контакты</li></a>
-                </ul>
+            <a href="index.html" class="logo-webstudio"">Web<span class="logo-webstudio-color">Studio</span></a>
+            <ul>
+               <li><a href="#" class="header-list-item" >Студия</a></li>
+               <li><a href="index2.html" class="header-list-item">Портфолио</a></li>
+               <li><a href="#" class="header-list-item">Контакты</a></li>
+            </ul>
         </nav>
         <address>
             <ul>
-                <li><a href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111"> +38 096 111 11 11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="header-mailadress"> info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="header-phonenumber"> +38 096 111 11 11</a></li>
             </ul>
         </address>
     <header>
     <main>
-        <section>
-            <h1><b>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</b></h1>
-            <button type="button" lang="ru"> Заказать услугу</button>
+        <section class="section1">
+            <h1><b class="section1-heading">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</b></h1>
+            <button type="button" lang="ru" class="section1-button"> Заказать услугу</button>
         </section>
-        <section>
+        <section class="section2">
             <ul>
-                <li><h3 lang="ru"><b>Внимание к деталям</b></h3> 
-                    <p lang="ru">Идейные соображения, а также начало повседневной работы по формированию позиции.</p></li>
-                <li><h3 lang="ru"><b>Пунктуальность</b></h3>
-                    <p lang="ru">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p></li>
-                <li><h3 lang="ru"><b>Планирование</b></h3>
-                    <p lang="ru">Равным образом консультация с широким активом в значительной степени обуславливает.</p></li>
-                <li><h3 lang="ru"><b>Современные технологии</b></h3>
-                    <p lang="ru">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
+                <li><h3 lang="ru" class="section2-subheading"><b>Внимание к деталям</b></h3> 
+                    <p lang="ru" class="section2-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p></li>
+                <li><h3 lang="ru" class="section2-subheading"><b>Пунктуальность</b></h3>
+                    <p lang="ru" class="section2-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p></li>
+                <li><h3 lang="ru" class="section2-subheading"><b>Планирование</b></h3>
+                    <p lang="ru" class="section2-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p></li>
+                <li><h3 lang="ru" class="section2-subheading"><b>Современные технологии</b></h3>
+                    <p lang="ru" class="section2-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
             </ul>
         </section>
-        <section>
-            <h2>Чем мы занимаемся</h2>
+        <section class="section3">
+            <h2 class="section3-heading">Чем мы занимаемся</h2>
             <ul>
                 <li><img src="./images/computer.png" alt="Работник печатает" width="370"></li>
                 <li><img src="./images/computer-2.png" alt="Телефон" width="370"></li>
@@ -49,38 +53,38 @@
             </ul>
         </section>
         <section>
-            <h2 lang="ru">Наша команда</h2>
+            <h2 lang="ru" class="section4-heading">Наша команда</h2>
             <ul>
                 <li>
                     <img src="./images/igor.png" alt="Игорь Демьяненко" width="270">
-                        <h3 lang="ru">Игорь Демьяненко</h3>
-                            <p lang="ru">Product Designer</p>
+                        <h3 lang="ru" class="section4-names">Игорь Демьяненко</h3>
+                            <p lang="ru" class="section4-text">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/olga.jpg" alt="Ольга Репина" width="270">
-                        <h3 lang="ru">Ольга Репина</h3>
-                            <p lang="ru">Frontend Developer</p>       
+                        <h3 lang="ru" class="section4-names">Ольга Репина</h3>
+                            <p lang="ru" class="section4-text">Frontend Developer</p>       
                 </li>
                 <li>
-                    <img src="./images/nikolai.jpg" alt="Николай Тарасов" width="270">
-                        <h3 lang="ru">Николай Тарасов</h3>
-                            <p lang="ru">Marketing</p>
+                    <img src="./images/nikolai.jpg" alt="Николай Тарасов" width="270" class="section4-names">
+                        <h3 lang="ru" class="section4-names">Николай Тарасов</h3>
+                            <p lang="ru" class="section4-text">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/mihail.png" alt="Михаил Ермаков" width="270">
-                        <h3 lang="ru">Михаил Ермаков</h3>
-                            <p lang="ru">UI Designer </p>
+                        <h3 lang="ru" class="section4-names">Михаил Ермаков</h3>
+                            <p lang="ru" class="section4-text">UI Designer </p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="#">WebStudio</a>
+    <footer class="footer">
+        <p class="footer-logo-webstudio"">Web<span class="footer-logo-webstudio-color">Studio</span></p>
             <address>
                 <ul>
-                    <li><a href="https://goo.gl/maps/Ric45oEM17guHxiXA" lang="ru" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li><a href="mailto:info@example.com">info@example.com</a></li>
-                    <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+                    <li><a href="https://goo.gl/maps/Ric45oEM17guHxiXA" lang="ru" target="_blank" class="footer-adressline">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li><a href="mailto:info@example.com" class="footer-mailadress">info@example.com</a></li>
+                    <li><a href="tel:+380991111111" class="footer-phonenumber">+38 099 111 11 11</a></li>
                 </ul>
             </address>
     </footer>
